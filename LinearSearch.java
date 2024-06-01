@@ -19,3 +19,4 @@ public class LinearSearch
         System.out.println(obj.LSearch(arr, 50));
     }    
 }
+
