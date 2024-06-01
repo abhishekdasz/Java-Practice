@@ -1,4 +1,4 @@
-public class LinearSearch 
+public class One 
 {
     public int LSearch(int arr[], int no)
     {
@@ -15,7 +15,7 @@ public class LinearSearch
     {
         int arr[]= {1,8,4,2,6,3,10};
 
-        LinearSearch obj = new LinearSearch();
+        One obj = new One();
         System.out.println(obj.LSearch(arr, 50));
     }    
 }
