@@ -19,6 +19,6 @@ public class Anagram
         if(chArr1.equals(chArr2))
         {
             System.out.println("Anagram");
-        }
+        }   
     }    
 }
