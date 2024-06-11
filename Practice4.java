@@ -9,4 +9,3 @@ public class Practice4
         System.out.println(newSt);
     }    
 }
-   
