@@ -16,7 +16,7 @@ public class Anagram
         Arrays.sort(chArr1);
         Arrays.sort(chArr2);
 
-        if(chArr1.equals(chArr2))
+        if(Arrays.equals(chArr1, chArr2))
         {
             System.out.println("Anagram");
         }   
