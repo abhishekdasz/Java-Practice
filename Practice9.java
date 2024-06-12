@@ -24,5 +24,7 @@ public class Practice9
 
             // System.out.println(word.length());
         }
+        System.out.println(smallestWord);
+        System.out.println(longestWord);
     }    
 }
