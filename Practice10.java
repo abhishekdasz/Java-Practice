@@ -18,5 +18,5 @@ public class Practice10
             System.out.println("Both strings are anagram to each other.");
         }
     }    
-}
+}            
   
