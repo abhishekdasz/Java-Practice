@@ -12,6 +12,11 @@ public class Practice10
 
         Arrays.sort(ch1);
         Arrays.sort(ch2);
+
+        if(ch1.equals(ch2))
+        {
+            System.out.println("Both strings are anagram to each other.");
+        }
     }    
 }
   
