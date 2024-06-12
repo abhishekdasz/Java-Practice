@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Practice10 
 {
     public static void main(String[] args) 
@@ -7,6 +9,9 @@ public class Practice10
 
         char [] ch1 = s1.toCharArray();
         char [] ch2 = s2.toCharArray();
+
+        Arrays.sort(ch1);
+        Arrays.sort(ch2);
     }    
 }
   
