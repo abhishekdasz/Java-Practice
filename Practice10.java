@@ -4,15 +4,13 @@ public class Practice10
     {
         String s1 = "listen";
         String s2 = "silent";
-        
-        for(int i=0; i<s1.length(); i++)
-        {
-            System.out.println(s1.charAt(i));
 
-            for(int j=0; j<s2.length(); j++)
-            {
-                System.out.println(s2.charAt(j));
-            }
+        char [] ch1 = s1.toCharArray();
+        char [] ch2 = s1.toCharArray();
+
+        for(int i=0; i<ch1.length; i++)
+        {
+            System.out.println(ch1[i]);
         }
     }    
 }
