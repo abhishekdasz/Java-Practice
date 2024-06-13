@@ -23,6 +23,6 @@ public class Practice15
                 sb.append(currentChar);
             }
         }
-        System.out.println(sb);
+        System.out.println("String after removing duplicates: " + sb);
     }    
 }
