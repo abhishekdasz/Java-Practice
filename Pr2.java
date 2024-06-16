@@ -5,6 +5,13 @@ class Animal
         System.out.println("I am eating.");
     }
 }
+class Tiger
+{
+    void roar()
+    {
+        System.out.println("I am roaring.");
+    }
+}
 class Dog extends Animal
 {
     void bark()
