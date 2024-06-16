@@ -1,42 +1,24 @@
-// Class AD with a property and a method
-public class AD {
-    // Property
-    private String message;
-
-    // Constructor to initialize the property
-    public AD(String message) {
-        this.message = message;
+class A
+{
+    String name;
+    int age;    
+    A(String n)
+    {
+        name = n;
     }
-
-    // Method to get the message
-    public String getMessage() {
-        return message;
-    }
-
-    // Method to set a new message
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    // Method to display the message
-    public void displayMessage() {
-        System.out.println("Message: " + message);
+    A(String n, int a)
+    {
+        name = n;
+        age = a;
     }
 }
+public class Pr1 
+{
+    public static void main(String[] args) 
+    {
+        A obj = new A("Abhishek");
+        A obj2 = new A("Abhishek", 21);
 
-// Main class Pr1
-public class Pr1 {
-    public static void main(String[] args) {
-        // Creating an instance of AD and initializing it with a message
-        AD ad = new AD("Hello, World!");
-
-        // Displaying the message using the method of AD class
-        ad.displayMessage();
-
-        // Setting a new message
-        ad.setMessage("Goodbye, World!");
-
-        // Displaying the updated message
-        ad.displayMessage();
+        System.out.println(obj2.name + ": " + obj2.age);
     }    
 }
