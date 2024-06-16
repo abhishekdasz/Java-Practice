@@ -16,9 +16,10 @@ public class Pr1
 {
     public static void main(String[] args) 
     {
-        A obj = new A("Abhishek");
+        A obj1 = new A("Abhishek");
         A obj2 = new A("Abhishek", 21);
 
+        System.out.println(obj1.name);
         System.out.println(obj2.name + ": " + obj2.age);
     }    
 }
